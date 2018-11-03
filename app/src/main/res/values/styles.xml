@@ -1,0 +1,59 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowTransitionBackgroundFadeDuration">1000</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+
+    <style name="CustomToolbar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/primary</item>
+        <item name="titleTextColor">@color/textLight</item>
+        <item name="colorControlNormal">@color/textLight</item>
+    </style>
+
+    <style name="CustomToolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">25sp</item>
+        <item name="fontFamily">@font/odin_rounded</item>
+    </style>
+
+    <style name="CustomMenu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/textLight</item>
+    </style>
+
+
+    <style name="Title">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/textLight</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="LineBottom">
+        <item name="android:background">@drawable/bg_line</item>
+    </style>
+
+    <style name="LineBottomSplash">
+        <item name="android:background">@color/logo</item>
+    </style>
+
+    <style name="Shadow">
+        <item name="android:shadowColor">@color/logo</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">5</item>
+    </style>
+
+</resources>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">#PokéDex</string>
+    <string name="settings">Settings</string>
+    <string name="about_app">About</string>
+    <string name="about_author">Author</string>
+    <string name="quiz">Who\'s that one?</string>
+    <string name="pokemons">All pokémons!</string>
+    <string name="right_answer">Right answer!</string>
+    <string name="wrong_answer">Wrong answer!</string>
+    <string name="right_answers">Right answers:</string>
+    <string name="wrong_answers">Wrong answers:</string>
+    <string name="items">Items</string>
+    <string name="quiz_question">Who\'s that pokémon?</string>
+    <string name="author_app">powered by Lincoln Stuart</string>
+    <string name="loading_more_pokemons">Loading more pokémons...</string>
+    <string name="loading_more_items">Loading more items...</string>
+    <string name="option_one">a.</string>
+    <string name="option_two">b.</string>
+    <string name="option_three">.c</string>
+    <string name="option_four">.d</string>
+    <string name="keep_history">Keep history</string>
+    <string name="data">data</string>
+    <string name="clear_data">Clear data</string>
+    <string name="version">Version</string>
+    <string name="license">License</string>
+    <string name="license_name">Apache License 2.0</string>
+    <string name="endpoint">Endpoint</string>
+    <string name="endpoint_address">https://pokeapi.co/api/v2/</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="linkedin_profile">/in/lincoln-stuart-188850b4/</string>
+    <string name="github">Github</string>
+    <string name="github_profile">/LincolnStuart</string>
+    <string name="twitter">Twitter</string>
+    <string name="twitter_profile">/lincolnstuart</string>
+    <string name="youtube">Youtube</string>
+    <string name="youtube_channel">/LincolnStuartLG</string>
+
+</resources>

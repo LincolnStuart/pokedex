@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lincolnstuart.co.pokedex.AboutActivity"
+    android:background="@color/primaryDark">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="15dp">
+
+        <include
+            android:id="@+id/lt_action_bar"
+            layout="@layout/app_bar_simple" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/version"
+        android:textAllCaps="true"
+        android:textColor="@color/textLight"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appbar" />
+
+    <TextView
+        android:id="@+id/tv_version_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="17dp"
+        android:textColor="@color/textLight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_version"
+        app:layout_constraintTop_toBottomOf="@+id/appbar" />
+
+    <View
+        android:id="@+id/vw_line_version"
+        style="@style/LineBottom"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_version" />
+
+
+    <TextView
+        android:id="@+id/tv_license"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/license"
+        android:textAllCaps="true"
+        android:textColor="@color/textLight"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vw_line_version" />
+
+    <TextView
+        android:id="@+id/tv_license_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="17dp"
+        android:text="@string/license_name"
+        android:textColor="@color/textLight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_license"
+        app:layout_constraintTop_toBottomOf="@+id/vw_line_version" />
+
+    <View
+        android:id="@+id/vw_line_license"
+        style="@style/LineBottom"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_license" />
+
+
+    <TextView
+        android:id="@+id/tv_endpoint"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/endpoint"
+        android:textAllCaps="true"
+        android:textColor="@color/textLight"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vw_line_license" />
+
+    <TextView
+        android:id="@+id/tv_endpoint_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="17dp"
+        android:text="@string/endpoint_address"
+        android:textColor="@color/textLight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_endpoint"
+        app:layout_constraintTop_toBottomOf="@+id/vw_line_license" />
+
+    <View
+        android:id="@+id/vw_line_endpoint"
+        style="@style/LineBottom"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_endpoint" />
+
+
+</android.support.constraint.ConstraintLayout>
