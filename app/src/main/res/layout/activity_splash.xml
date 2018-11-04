@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="lincolnstuart.co.pokedex.SplashActivity"
+    tools:context="co.lincolnstuart.pokedex.SplashActivity"
     android:background="@color/primary"
     android:fitsSystemWindows="false">
 

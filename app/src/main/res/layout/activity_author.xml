@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/primaryDark"
-    tools:context="lincolnstuart.co.pokedex.AuthorActivity">
+    tools:context="co.lincolnstuart.pokedex.AuthorActivity">
 
 
     <android.support.design.widget.AppBarLayout

@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "lincolnstuart.co.pokedex"
+        applicationId "co.lincolnstuart.pokedex"
         minSdkVersion 23
         targetSdkVersion 27
         multiDexEnabled true
