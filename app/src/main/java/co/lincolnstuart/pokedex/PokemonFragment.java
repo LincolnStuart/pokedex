@@ -60,7 +60,7 @@ public class PokemonFragment extends Fragment {
         recyclerView.addOnScrollListener(new CustomOnScrollListener((LinearLayoutManager) layoutManager, fbUp) {
             @Override
             public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
-                if (currentId <= 10147) {
+                if (currentId <= Constants.LIMIT_ID) {
                     addData(8);
                     Snackbar.make(getView().findViewById(R.id.lt_coordinator), getString(R.string.loading_more_pokemons), Snackbar.LENGTH_SHORT).show();
                 }
